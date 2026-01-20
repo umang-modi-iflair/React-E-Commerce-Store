@@ -1,0 +1,127 @@
+/* Page Base */
+.about-page {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .about-hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .about-hero p {
+    font-size: 18px;
+    opacity: 0.9;
+  }
+  
+  /* About Content */
+  .about-content {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .about-text h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+    color: #555;
+  }
+  
+  /* Card */
+  .about-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .about-icon {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .about-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  /* Features */
+  .about-features {
+    background: white;
+    padding: 70px 20px;
+  }
+  
+  .about-features h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .features-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+  
+  .feature-box {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-box span {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .feature-box p {
+    color: #666;
+    font-size: 15px;
+  }
+  
+  .feature-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .about-content {
+      grid-template-columns: 1fr;
+    }
+  
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
