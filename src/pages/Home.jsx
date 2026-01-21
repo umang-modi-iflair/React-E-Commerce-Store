@@ -92,8 +92,8 @@ const Home = () => {
           </div>
 
           <div className="home-hero-card">
-            <div className="home-hero-card-top">
-              <div className="home-hero-card-title">Today’s Highlights</div>
+            <div className="home-hero-card-top"> 
+              <div className="home-hero-card-title"> <br /> Today’s Highlights</div>
               <div className="home-hero-pill">🔥 Deals</div>
             </div>
             <div className="home-hero-kpis">

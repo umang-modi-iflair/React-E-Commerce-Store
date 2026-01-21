@@ -170,6 +170,8 @@ const ProductDetails = () => {
           <Link to="/products">← Back to Products</Link>
         </div>
 
+        <br></br>  <br></br>
+
         <div className="pd-grid">
           <div className="pd-imageWrap">
             <img className="pd-image" src={product.image} alt={product.name} />
