@@ -170,7 +170,6 @@
   right: 0;
   width: 200px;
   height: 200px;
-  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffffff" fill-opacity="0.05"><circle cx="30" cy="30" r="2"/></g></svg>');
   opacity: 0.3;
   transform: rotate(45deg) translate(50px, -50px);
 }
